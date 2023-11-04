@@ -1,11 +1,19 @@
 body {
     margin: 0;
 }
+
+header div {
+    display: inline-block;
+    width: 40%;
+}
+
 nav ul {
     padding-left: 0px;
 }
 nav ul li {
     list-style: none;
+    display: inline-block;
+    margin-left: 1em;
 }
 
 main {
@@ -15,6 +23,13 @@ main {
     padding: 1em 2em;
     background-color: #ff000040;
     margin: 2em auto;
+}
+main section {
+    width: 40%;
+    display: inline-block
+}
+section div {
+    margin: 0 2em;
 }
 header, footer {
     background-color: black;
