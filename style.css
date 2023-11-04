@@ -4,6 +4,9 @@ body {
 nav ul {
     padding-left: 0px;
 }
+nav ul li {
+    list-style: none;
+}
 
 main {
     width: 70%;
@@ -11,5 +14,10 @@ main {
     border-style: dashed;
     padding: 1em 2em;
     background-color: #ff000040;
-    margin: 0 auto;
+    margin: 2em auto;
+}
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 1em;
 }
