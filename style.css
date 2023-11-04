@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+nav ul {
+    padding-left: 0px;
+}
+
+main {
+    width: 70%;
+    border: 2px red;
+    border-style: dashed;
+    padding: 1em 2em;
+    background-color: #ff000040;
+    margin: 0 auto;
+}
